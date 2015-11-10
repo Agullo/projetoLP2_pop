@@ -96,7 +96,7 @@ public class Controller {
 			throws SenhaProtegidaException, UsuarioNaoExisteException {
 		Usuario usuario = recuperarUsuario(email);
 		switch (atributo.toUpperCase()) {
-		case "NOME":
+		case "NOME ":
 			return usuario.getNome();
 		case "DATA DE NASCIMENTO":
 			return usuario.getDataNascFormatada();
